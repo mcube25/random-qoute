@@ -1,7 +1,7 @@
 $(document).ready(function(){
-  $("#quote").on("click", function(){
+    $("#quote").on("click", function(){
     $.ajax({
-      url: "https://api.icndb.com/jokes/random/1?firstName=borriss saint",
+      url: "https://api.icndb.com/jokes/random/1?firstName=mr",
       method : "GET",
       success: function(result) {
       var joke = result['value'][0]['joke'];
