@@ -27,3 +27,15 @@ P {
   color: green;
   font-family: sans;
 }
+.text-primary {
+  font-family: cursive;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: shadow;
+
+}
+.btn btn-primary {
+  border-radius: 8px;
+  box-shadow: 2px black ;
+}
