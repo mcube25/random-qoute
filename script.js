@@ -1,6 +1,6 @@
 $(document).ready(function(){
-  $("#quote").on("click", function(){
-    $.ajax({
+    $("#quote").on("click", function(){
+    ajax({
       url: "https://api.icndb.com/jokes/random/1?firstName=borriss saint",
       method : "GET",
       success: function(result) {
