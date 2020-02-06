@@ -1,0 +1,29 @@
+.container-fluid {
+  margin-right:10%;
+  margin-left:10%;
+  padding-bottom:20px;
+  text-align:center;
+  color:#eeffee;
+  font-family:"cosmic sans";
+}
+.body {
+ position:relative;
+  background-color:#0d493b;
+}
+.well{
+  margin-right: 3%;
+  Margin-left:3%;
+  background-color:#0d493b;
+}
+footer {
+  min-height: 8vh;
+  padding-top: 20px;
+    padding-bottom: 1px;
+  background-color: black;
+  text-align:center;
+}
+P {
+  font-size: 18px;
+  color: green;
+  font-family: sans;
+}
